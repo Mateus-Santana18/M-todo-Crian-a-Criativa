@@ -1,0 +1,6 @@
+{
+  "name": "Kit Vida Sem Telas",
+  "description": "Landing page oficial do Kit Vida Sem Telas com mais de 150 atividades criativas e lúdicas para crianças.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Sora', system-ui, sans-serif;
+  --font-fredoka: 'Fredoka', cursive, sans-serif;
+  --font-sora: 'Sora', system-ui, sans-serif;
+}
+
+@keyframes ctaPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -5px rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 20px 35px -5px rgba(34, 197, 94, 0.6);
+  }
+}
+
+.cta-pulse {
+  animation: ctaPulse 2.5s infinite ease-in-out;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
