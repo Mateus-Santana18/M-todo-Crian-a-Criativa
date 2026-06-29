@@ -45,7 +45,7 @@ export default function PricingCard() {
                   <Check className="w-4 h-4 stroke-[3]" />
                 </span>
                 <span className="text-gray-100 font-semibold text-sm sm:text-base">
-                  Área de Membros Exclusiva e Organizada por Idade
+                  Kit Digital Completo Organizado por Idade
                 </span>
               </li>
               <li className="flex items-center gap-3 border-b border-white/10 pb-3">

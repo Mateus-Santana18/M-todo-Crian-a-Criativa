@@ -1,10 +1,13 @@
 import { Activity, BonusItem, FaqItem, Testimonial } from './types';
+import bonus1Img from './assets/bonus1.png';
+import bonus2Img from './assets/bonus2.png';
+import bonus3Img from './assets/bonus3.png';
 
 export const CHECKOUT_URL = "https://pay.vidasemtela.com/e82bh0vj?utm_source=site&utm_medium=organico&utm_campaign=vidasemtela";
 
-export const HERO_MOCKUP_IMAGE = "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"; // Kids learning & crafting happily
+export const HERO_MOCKUP_IMAGE = "https://i.imgur.com/PVIjYVz.png";
 
-export const WHY_IT_WORKS_IMAGE = "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1024&q=80"; // Happy family/kids playing
+export const WHY_IT_WORKS_IMAGE = "https://i.imgur.com/K146vY5.jpeg";
 
 export const ACTIVITIES_DATA: Activity[] = [
   {
@@ -12,7 +15,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Labirinto de Barbante",
     category: "🎯 Coordenação Motora",
     ageGroup: "5 a 10 anos",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/RuFltB2.jpeg",
     description: "Transforme sua casa em uma missão de agente secreto.",
     materials: ["Barbante ou lã colorida", "Fita crepe", "Corredor ou cadeiras"],
     steps: [
@@ -27,7 +30,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Caça ao Tesouro das Cores",
     category: "🌈 Exploração Sensorial",
     ageGroup: "2 a 6 anos",
-    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/rnsYaY8.jpeg",
     description: "Encontre objetos enquanto aprende brincando.",
     materials: ["Folha de atividades impressa do Kit", "Cestinha ou caixa", "Objetos variados da casa"],
     steps: [
@@ -42,7 +45,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Bolhas Gigantes",
     category: "🧪 Ciência & Ar Livre",
     ageGroup: "3 a 12 anos",
-    image: "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/yw2Hc6E.jpeg",
     description: "Crie bolhas enormes com uma receita simples e divertida.",
     materials: ["Água", "Detergente", "2 colheres de açúcar ou amido", "Dois palitos e barbante"],
     steps: [
@@ -57,7 +60,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Teatro de Sombras",
     category: "🎭 Criatividade",
     ageGroup: "4 a 9 anos",
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/grSSdsF.jpeg",
     description: "Conte histórias mágicas usando apenas uma lanterna.",
     materials: ["Moldes recortados do Kit", "Palitos de churrasco sem ponta", "Lanterna"],
     steps: [
@@ -72,7 +75,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Torre Geométrica",
     category: "🏗️ Lógica & Engenharia",
     ageGroup: "6 a 12 anos",
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/QuxlWJK.jpeg",
     description: "Construa a torre mais alta sem deixá-la cair.",
     materials: ["Massinha de modelar ou jujubas", "Palitos de dente ou espaguete cru"],
     steps: [
@@ -87,7 +90,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Pintura com Gelo",
     category: "🎨 Arte Sensorial",
     ageGroup: "2 a 7 anos",
-    image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/kQtyhMd.jpeg",
     description: "Pinte com cubos de gelo coloridos e crie lindas aquarelas.",
     materials: ["Forminha de gelo", "Corante alimentício ou guache", "Palitos de picolé", "Papel grosso"],
     steps: [
@@ -102,7 +105,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Matemática Divertida",
     category: "🧠 Raciocínio Lógico",
     ageGroup: "5 a 11 anos",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/RFl8KiR.jpeg",
     description: "Aprenda contas brincando de mercadinho.",
     materials: ["Fichas impressas do Bônus", "Dados de tabuleiro", "Grãos de feijão"],
     steps: [
@@ -117,7 +120,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Resgate dos Dinossauros",
     category: "🦖 Coordenação Fina",
     ageGroup: "2 a 6 anos",
-    image: "https://images.unsplash.com/photo-1566140967404-b8b3932483f5?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.imgur.com/7hTU9ea.jpeg",
     description: "Liberte os dinossauros presos no gelo e complete a missão.",
     materials: ["Pequenos brinquedos plásticos", "Pote plástco grande", "Água morna em conta-gotas"],
     steps: [
@@ -134,22 +137,22 @@ export const BONUSES_DATA: BonusItem[] = [
     id: "bonus-1",
     badge: "BRINDE",
     title: "CALIGRAFIA DIVERTIDA",
-    description: "Exercícios de escrita legais que vão fazer seu filho ficar entusiasmado. E de forma leve você vai ver a letrinha dele melhorando de forma natural.",
-    image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=500&q=80" // writing pencils/notebook
+    description: "Transforme a escrita em uma brincadeira! Atividades envolventes que ajudam seu filho a melhorar a letra de forma leve, divertida e natural.",
+    image: bonus1Img
   },
   {
     id: "bonus-2",
     badge: "BRINDE",
     title: "MÃE DE SUCESSO",
-    description: "Chegou do trabalho cansada e não consegue brincar com seu filho? Vamos te mostrar como você consegue fazer a criação do seu pequeno ser especial, mesmo nos dias mais corridos.",
-    image: "https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=500&q=80" // loving mother and child
+    description: "Mesmo com a rotina corrida, descubra como criar momentos inesquecíveis e fortalecer a conexão com seu filho todos os dias",
+    image: bonus2Img
   },
   {
     id: "bonus-3",
     badge: "BRINDE",
     title: "MATEMÁTICA LÚDICA",
-    description: "Exercício muito legal pro seu filho aprender sobre os números e fazer contas de forma fácil com materiais que você tem em casa.",
-    image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=500&q=80" // abacus/numbers/fun math
+    description: "Seu filho aprende números e continhas brincando, com atividades práticas usando materiais que você já tem em casa",
+    image: bonus3Img
   }
 ];
 

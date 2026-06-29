@@ -60,7 +60,7 @@ export default function Hero() {
                 <Heart className="w-4 h-4 text-[#ef4444]" /> 100% Longe do Celular
               </span>
               <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-                <Award className="w-4 h-4 text-[#22c55e]" /> Aprovado por Pedagogues
+                <Award className="w-4 h-4 text-[#22c55e]" /> Aprovado por Pedagogas
               </span>
             </div>
           </div>

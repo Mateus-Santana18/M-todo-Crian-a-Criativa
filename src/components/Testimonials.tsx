@@ -10,7 +10,7 @@ export default function Testimonials() {
           Quem confiou, <span className="text-[#4C6FFF]">aprovou!</span>
         </h2>
         <p className="text-[#374151] mb-2 text-base sm:text-lg font-medium">
-          Já são mais de <strong className="text-[#22c55e] font-extrabold">9.500</strong> pais e professores em todo o Brasil!
+          Mais de 9.000 pais e professores em todo o Brasil já transformaram a rotina das crianças com nosso método
         </p>
         <p className="text-gray-500 mb-10 text-xs sm:text-sm font-semibold animate-pulse">
           👉 Deslize para os lados para ler as avaliações reais

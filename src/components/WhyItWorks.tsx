@@ -10,7 +10,7 @@ export default function WhyItWorks() {
           Por que o Método Criança Criativa <span className="text-[#4C6FFF]">Funciona?</span>
         </h2>
         <p className="text-center text-[#374151] mb-12 max-w-3xl mx-auto text-base sm:text-lg font-medium leading-relaxed">
-          O nosso conteúdo é mega completo, com brincadeiras muito divertidas para seu pequeno. Você vai notar grandes diferenças positivas no comportamento e na tranquilidade da rotina.
+          Um conteúdo completo com brincadeiras que ajudam seu filho a se desenvolver, reduzir o uso de telas e deixar a rotina muito mais leve e tranquila.
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12">
@@ -41,10 +41,10 @@ export default function WhyItWorks() {
               </span>
               <div>
                 <h3 className="font-fredoka font-bold text-lg text-[#0F172A] mb-1">
-                  Melhora Visível no Humor
+                  Autonomia na Prática
                 </h3>
                 <p className="text-[#374151] text-sm leading-relaxed">
-                  Atividades imersivas e práticas que estimulam a dopamina natural, fazendo a criança esquecer a necessidade da tela instantaneamente.
+                  Brincadeiras que incentivam decisões, foco e resolução de problemas de forma natural e divertida.
                 </p>
               </div>
             </div>
@@ -55,10 +55,10 @@ export default function WhyItWorks() {
               </span>
               <div>
                 <h3 className="font-fredoka font-bold text-lg text-[#0F172A] mb-1">
-                  Diversão Crescente e Diária
+                  Mais Calma no Dia a Dia
                 </h3>
                 <p className="text-[#374151] text-sm leading-relaxed">
-                  Todo dia uma brincadeira nova que desperta a criatividade, os sentidos e a curiosidade infantil de forma estruturada.
+                  Seu filho mais tranquilo, focado e feliz com atividades que substituem o tempo de tela por brincadeiras envolventes.
                 </p>
               </div>
             </div>
@@ -69,10 +69,10 @@ export default function WhyItWorks() {
               </span>
               <div>
                 <h3 className="font-fredoka font-bold text-lg text-[#0F172A] mb-1">
-                  Autonomia Natural e Independência
+                  Menos Tela, Mais Desenvolvimento
                 </h3>
                 <p className="text-[#374151] text-sm leading-relaxed">
-                  Brincadeiras pensadas para estimular seu filho na tomada de decisões e na resolução de problemas sozinho ou em equipe.
+                  Cada dia perdido nas telas é uma chance a menos de estimular habilidades importantes.
                 </p>
               </div>
             </div>

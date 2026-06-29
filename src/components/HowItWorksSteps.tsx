@@ -17,14 +17,14 @@ export default function HowItWorksSteps() {
             </div>
             <div className="absolute left-4 sm:left-7 top-1/2 -translate-y-1/2">
               <div className="w-10 sm:w-12 h-10 sm:h-12 bg-[#C7D2FE]/50 rounded-2xl flex items-center justify-center text-[#4C6FFF]">
-                <Download className="w-6 h-6" />
+                <span className="text-2xl">📩</span>
               </div>
             </div>
             <h3 className="font-fredoka text-xl sm:text-2xl font-bold mb-2 text-[#0F172A]">
-              Faça o download
+              Receba seu acesso na hora
             </h3>
             <p className="text-[#374151] text-sm sm:text-base leading-relaxed font-medium">
-              Após a confirmação segura do pagamento de R$ 7,00, você receberá instantaneamente um e-mail com o link de acesso para baixar todos os materiais ou visualizar online.
+              Após a confirmação do pagamento, você recebe instantaneamente o acesso completo por e-mail para baixar ou visualizar todos os materiais.
             </p>
           </div>
 
@@ -35,14 +35,14 @@ export default function HowItWorksSteps() {
             </div>
             <div className="absolute left-4 sm:left-7 top-1/2 -translate-y-1/2">
               <div className="w-10 sm:w-12 h-10 sm:h-12 bg-[#C7D2FE]/50 rounded-2xl flex items-center justify-center text-[#4C6FFF]">
-                <Printer className="w-6 h-6" />
+                <span className="text-2xl">🖨️</span>
               </div>
             </div>
             <h3 className="font-fredoka text-xl sm:text-2xl font-bold mb-2 text-[#0F172A]">
-              Imprima ou leia no celular
+              Imprima e prepare a diversão
             </h3>
             <p className="text-[#374151] text-sm sm:text-base leading-relaxed font-medium">
-              Você pode imprimir em casa, na escola ou em qualquer gráfica em papel A4 normal. Mas lembrando: muitas das brincadeiras lúdicas podem ser aplicadas apenas lendo o guia rápido no celular!
+              Imprima as atividades em casa ou em qualquer gráfica e tenha tudo pronto em poucos minutos.
             </p>
           </div>
 
@@ -53,14 +53,14 @@ export default function HowItWorksSteps() {
             </div>
             <div className="absolute left-4 sm:left-7 top-1/2 -translate-y-1/2">
               <div className="w-10 sm:w-12 h-10 sm:h-12 bg-[#C7D2FE]/50 rounded-2xl flex items-center justify-center text-[#4C6FFF]">
-                <Play className="w-6 h-6" />
+                <span className="text-2xl">🎲</span>
               </div>
             </div>
             <h3 className="font-fredoka text-xl sm:text-2xl font-bold mb-2 text-[#0F172A]">
-              Comece a praticar hoje
+              Comece a brincar hoje mesmo
             </h3>
             <p className="text-[#374151] text-sm sm:text-base leading-relaxed font-medium">
-              Com as sugestões em mãos, a criança já pode começar a se divertir. Sugerimos dedicar de 15 a 20 minutos por dia para criar novos hábitos cognitivos saudáveis longe do Wi-Fi.
+              Em apenas 15 minutos por dia, seu filho já pode trocar o tempo de tela por brincadeiras que divertem, ensinam e estimulam o desenvolvimento.
             </p>
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function Bonuses() {
           <h2 className="font-fredoka text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-[#0F172A]">
             ADQUIRINDO O KIT COMPLETO<br />
             <mark className="bg-[#FFF1CF] text-[#E4A107] px-3 py-1 rounded-xl inline-block mt-2 shadow-sm">
-              VOCÊ LEVA 3 SUPER BÔNUS
+              VOCÊ LEVA 3 BÔNUS IMPERDIVEIS
             </mark>
           </h2>
         </div>
@@ -22,13 +22,13 @@ export default function Bonuses() {
           {BONUSES_DATA.map((bonus, index) => (
             <div
               key={bonus.id}
-              className="border-[3px] border-dashed border-[#C7D2FE] bg-[#F8FAFC] rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center gap-8 hover:border-[#4C6FFF] transition duration-300 shadow-sm"
+              className="border-[3px] border-[#C7D2FE] bg-[#F8FAFC] rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center gap-8 hover:border-[#4C6FFF] transition duration-300 shadow-sm"
             >
-              <div className="relative flex-shrink-0 w-48 sm:w-56 aspect-square rounded-2xl overflow-hidden shadow-lg border-2 border-white">
+              <div className="relative flex-shrink-0 w-48 sm:w-56 aspect-square flex items-center justify-center">
                 <img
                   src={bonus.image}
                   alt={bonus.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
                 <div className="absolute top-2 left-2 bg-[#15803d] text-white text-[10px] font-extrabold px-2.5 py-1 rounded-md shadow uppercase tracking-wider">
                   BRINDE #{index + 1}
