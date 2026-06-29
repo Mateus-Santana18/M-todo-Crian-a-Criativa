@@ -9,11 +9,11 @@ export const WHY_IT_WORKS_IMAGE = "https://images.unsplash.com/photo-1544717305-
 export const ACTIVITIES_DATA: Activity[] = [
   {
     id: "act-1",
-    title: "Labirinto de Barbante e Laser",
-    category: "Coordenação Motora",
+    title: "Labirinto de Barbante",
+    category: "🎯 Coordenação Motora",
     ageGroup: "5 a 10 anos",
     image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80",
-    description: "Transforme o corredor de casa em uma missão de agente secreto usando apenas fita crepe e barbante colorido.",
+    description: "Transforme sua casa em uma missão de agente secreto.",
     materials: ["Barbante ou lã colorida", "Fita crepe", "Corredor ou cadeiras"],
     steps: [
       "Cole pedaços de barbante de uma parede à outra no corredor em alturas variadas.",
@@ -25,10 +25,10 @@ export const ACTIVITIES_DATA: Activity[] = [
   {
     id: "act-2",
     title: "Caça ao Tesouro das Cores",
-    category: "Exploração Sensorial",
+    category: "🌈 Exploração Sensorial",
     ageGroup: "2 a 6 anos",
     image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=600&q=80",
-    description: "Uma divertida busca pela sala ou quintal para encontrar objetos correspondentes ao gabarito impresso.",
+    description: "Encontre objetos enquanto aprende brincando.",
     materials: ["Folha de atividades impressa do Kit", "Cestinha ou caixa", "Objetos variados da casa"],
     steps: [
       "Entregue a cartela de cores do Kit Vida Sem Telas para a criança.",
@@ -39,11 +39,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-3",
-    title: "Laboratório de Bolhas Gigantes",
-    category: "Ciência & Ar Livre",
+    title: "Bolhas Gigantes",
+    category: "🧪 Ciência & Ar Livre",
     ageGroup: "3 a 12 anos",
     image: "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80",
-    description: "A receita mágica perfeita do manual para fazer bolhas gigantescas no quintal ou na varanda.",
+    description: "Crie bolhas enormes com uma receita simples e divertida.",
     materials: ["Água", "Detergente", "2 colheres de açúcar ou amido", "Dois palitos e barbante"],
     steps: [
       "Misture a água, o detergente e o açúcar em uma bacia grande.",
@@ -54,11 +54,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-4",
-    title: "Teatro de Sombras Fantásticas",
-    category: "Criatividade & Narração",
+    title: "Teatro de Sombras",
+    category: "🎭 Criatividade",
     ageGroup: "4 a 9 anos",
     image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80",
-    description: "Recorte os moldes de animais do kit, cole em palitos e crie historinhas mágicas com a lanterna do celular antes de dormir.",
+    description: "Conte histórias mágicas usando apenas uma lanterna.",
     materials: ["Moldes recortados do Kit", "Palitos de churrasco sem ponta", "Lanterna"],
     steps: [
       "Recorte as silhuetas de dragões, princesas e dinossauros do anexo.",
@@ -69,11 +69,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-5",
-    title: "Desafio da Torre Geométrica",
-    category: "Lógica e Engenharia",
+    title: "Torre Geométrica",
+    category: "🏗️ Lógica & Engenharia",
     ageGroup: "6 a 12 anos",
     image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80",
-    description: "Quem consegue construir a torre mais alta e firme usando apenas massinha e palitos de dente?",
+    description: "Construa a torre mais alta sem deixá-la cair.",
     materials: ["Massinha de modelar ou jujubas", "Palitos de dente ou espaguete cru"],
     steps: [
       "Faça pequenas bolinhas de massinha para servirem de conectores.",
@@ -84,11 +84,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-6",
-    title: "Pintura Mágica com Gelo Colorido",
-    category: "Arte Sensorial",
+    title: "Pintura com Gelo",
+    category: "🎨 Arte Sensorial",
     ageGroup: "2 a 7 anos",
     image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=600&q=80",
-    description: "Picolés de tinta e água que derretem no papel grosso criando aquarelas surpreendentes.",
+    description: "Pinte com cubos de gelo coloridos e crie lindas aquarelas.",
     materials: ["Forminha de gelo", "Corante alimentício ou guache", "Palitos de picolé", "Papel grosso"],
     steps: [
       "Coloque água com gotinhas de corante nas formas de gelo e espete os palitos.",
@@ -99,11 +99,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-7",
-    title: "Matemática Lúdica dos Tabuleiros",
-    category: "Raciocínio Lógico",
+    title: "Matemática Divertida",
+    category: "🧠 Raciocínio Lógico",
     ageGroup: "5 a 11 anos",
     image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80",
-    description: "Aprenda somas e multiplicações brincando de mercadinho com as cédulas e fichas exclusivas do material.",
+    description: "Aprenda contas brincando de mercadinho.",
     materials: ["Fichas impressas do Bônus", "Dados de tabuleiro", "Grãos de feijão"],
     steps: [
       "Jogue os dois dados e junte a quantidade equivalente de feijões.",
@@ -114,11 +114,11 @@ export const ACTIVITIES_DATA: Activity[] = [
   },
   {
     id: "act-8",
-    title: "Resgate dos Dinossauros Congelados",
-    category: "Coordenação Fina",
+    title: "Resgate dos Dinossauros",
+    category: "🦖 Coordenação Fina",
     ageGroup: "2 a 6 anos",
     image: "https://images.unsplash.com/photo-1566140967404-b8b3932483f5?auto=format&fit=crop&w=600&q=80",
-    description: "Congele pequenos bonequinhos dentro de um bloco de gelo e dê ferramentas seguras para o pequeno paleontólogo escavar.",
+    description: "Liberte os dinossauros presos no gelo e complete a missão.",
     materials: ["Pequenos brinquedos plásticos", "Pote plástco grande", "Água morna em conta-gotas"],
     steps: [
       "Coloque os brinquedos no pote com água e congele durante a noite.",

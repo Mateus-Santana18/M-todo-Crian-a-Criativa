@@ -21,7 +21,7 @@ export default function Hero() {
             🌱
           </div>
           <span className="font-fredoka font-extrabold text-xl md:text-2xl tracking-tight text-[#0F172A]">
-            Vida Sem Telas
+            Método Criança Criativa
           </span>
           <span className="bg-[#FFF1CF] text-[#E4A107] text-[11px] font-bold px-2 py-0.5 rounded-full ml-1">
             KIT OFICIAL
@@ -29,18 +29,16 @@ export default function Hero() {
         </div>
 
         {/* H1 Headline */}
-        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight">
-          Em 7 dias, seu filho vai se divertir com atividades que estimulam a{' '}
+        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight max-w-4xl mx-auto">
+          Em apenas 7 dias, seu filho pode{' '}
           <span className="text-[#4C6FFF] relative inline-block">
-            mente
+            reduzir o tempo nas telas
             <svg className="absolute w-full h-3 -bottom-1 left-0 text-[#FFE4A0] -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
               <path d="M0 15 Q 50 0 100 15" stroke="currentColor" strokeWidth="8" fill="none" />
             </svg>
           </span>{' '}
-          e a{' '}
-          <span className="text-[#4C6FFF] relative inline-block">
-            criatividade!
-          </span>
+          e descobrir uma nova forma de{' '}
+          <span className="text-[#22c55e]">aprender, criar e se divertir!</span>
         </h1>
 
         {/* Hero Bundle Mockup Graphic */}
@@ -49,7 +47,7 @@ export default function Hero() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white border-[6px] border-white">
             <img
               src={HERO_MOCKUP_IMAGE}
-              alt="Kit Vida Sem Telas - Materiais educativos"
+              alt="Kit Método Criança Criativa - Materiais educativos"
               className="w-full h-auto object-cover max-h-[420px]"
             />
             
@@ -68,18 +66,45 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Subtitle */}
-        <p className="text-base sm:text-lg md:text-xl text-[#374151] mb-8 max-w-2xl mx-auto font-medium">
-          São atividades simples e fáceis de fazer em casa com o que você já tem.
-        </p>
+        {/* Subtitle / Benefits Section */}
+        <div className="text-base sm:text-lg md:text-xl text-[#374151] mb-8 max-w-2xl mx-auto font-medium space-y-6">
+          <p className="leading-relaxed">
+            Com atividades práticas, envolventes e fáceis de aplicar, você estimula a criatividade, a concentração e o desenvolvimento infantil sem precisar comprar materiais.
+          </p>
+          
+          <div className="flex justify-center">
+            <div className="inline-flex flex-col text-left gap-2.5 bg-white/60 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm max-w-md w-full">
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
+                <span className="text-green-500 font-extrabold">✅</span>
+                <span>Apenas 15 a 30 minutos por dia</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
+                <span className="text-green-500 font-extrabold">✅</span>
+                <span>Atividades simples para fazer em casa</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
+                <span className="text-green-500 font-extrabold">✅</span>
+                <span>Utilize objetos que você já possui</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
+                <span className="text-green-500 font-extrabold">✅</span>
+                <span>Mais interação, aprendizado e momentos em família</span>
+              </div>
+            </div>
+          </div>
+
+          <p className="font-extrabold text-[#4C6FFF] tracking-wide text-lg sm:text-xl uppercase">
+            Menos telas. Mais criatividade. Mais desenvolvimento.
+          </p>
+        </div>
 
         {/* CTA Button */}
         <div className="flex flex-col items-center gap-3">
           <a
             href="#comparativo"
-            className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl md:text-2xl py-4 sm:py-5 px-8 sm:px-12 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse hover:-translate-y-1 active:translate-y-0"
+            className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl md:text-2xl py-4 sm:py-5 px-8 sm:px-12 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse hover:-translate-y-1 active:translate-y-0 uppercase"
           >
-            QUERO O KIT VIDA SEM TELAS
+            Quero o kit método criança criativa
           </a>
           <span className="text-xs sm:text-sm text-gray-500 flex items-center gap-1">
             🔒 Compra Segura · Acesso Imediato por R$ 7,00

@@ -7,7 +7,7 @@ export default function WhyItWorks() {
     <section id="sec-porque" data-section="Por que Funciona" className="py-16 px-4 bg-slate-50">
       <div className="max-w-5xl mx-auto">
         <h2 className="font-fredoka text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-4 text-[#0F172A] tracking-tight">
-          Por que o Vida Sem Telas <span className="text-[#4C6FFF]">Funciona?</span>
+          Por que o Método Criança Criativa <span className="text-[#4C6FFF]">Funciona?</span>
         </h2>
         <p className="text-center text-[#374151] mb-12 max-w-3xl mx-auto text-base sm:text-lg font-medium leading-relaxed">
           O nosso conteúdo é mega completo, com brincadeiras muito divertidas para seu pequeno. Você vai notar grandes diferenças positivas no comportamento e na tranquilidade da rotina.
@@ -19,7 +19,7 @@ export default function WhyItWorks() {
             <div className="absolute -inset-2 bg-gradient-to-tr from-[#22c55e]/30 via-[#4C6FFF]/20 to-[#E4A107]/30 rounded-3xl blur-xl opacity-75" />
             <img
               src={WHY_IT_WORKS_IMAGE}
-              alt="Atividades do Kit Vida Sem Telas em família"
+              alt="Atividades do Kit Método Criança Criativa em família"
               className="relative w-full h-auto rounded-2xl shadow-xl object-cover border-4 border-white max-h-[400px]"
             />
             <div className="absolute -bottom-5 -right-3 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3">
@@ -84,7 +84,7 @@ export default function WhyItWorks() {
             href={CHECKOUT_URL}
             className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg md:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
           >
-            QUERO O KIT VIDA SEM TELAS
+            Quero o kit método criança criativa
           </a>
           <p className="text-xs text-gray-500 mt-3">⚡ Envio automático por e-mail em formato PDF e Web</p>
         </div>

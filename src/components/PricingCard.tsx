@@ -20,13 +20,13 @@ export default function PricingCard() {
 
           <div className="p-6 sm:p-10 text-center flex flex-col flex-1">
             <h2 className="font-fredoka text-3xl sm:text-4xl font-extrabold mb-6 text-white tracking-tight">
-              Kit Vida Sem Telas
+              Método Criança Criativa
             </h2>
 
             <div className="relative rounded-2xl overflow-hidden mb-8 shadow-lg border-2 border-white/10 bg-slate-800">
               <img
                 src={HERO_MOCKUP_IMAGE}
-                alt="Kit Vida Sem Telas Pacote Completo"
+                alt="Kit Método Criança Criativa Pacote Completo"
                 className="w-full h-auto max-h-[220px] object-cover"
               />
             </div>

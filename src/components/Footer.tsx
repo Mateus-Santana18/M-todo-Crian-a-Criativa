@@ -31,16 +31,16 @@ export default function Footer() {
         <div className="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full mb-6">
           <span className="text-xl">🌱</span>
           <span className="font-fredoka font-bold text-lg tracking-tight text-white">
-            Vida Sem Telas
+            Método Criança Criativa
           </span>
         </div>
 
         <p className="text-gray-400 text-xs sm:text-sm max-w-lg mx-auto mb-6 leading-relaxed">
-          O Kit Vida Sem Telas é um material digital de incentivo ao desenvolvimento infantil, autonomia e aprendizado lúdico através de atividades offline.
+          O Método Criança Criativa é um material digital de incentivo ao desenvolvimento infantil, autonomia e aprendizado lúdico através de atividades offline.
         </p>
 
         <div className="text-gray-500 text-xs border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 Vida Sem Telas. Todos os direitos reservados.</p>
+          <p>© 2026 Método Criança Criativa. Todos os direitos reservados.</p>
           <div className="flex gap-4">
             <a href="#comparativo" className="hover:text-gray-300 underline">Termos de Uso</a>
             <a href="#comparativo" className="hover:text-gray-300 underline">Políticas de Privacidade</a>
