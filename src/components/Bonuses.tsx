@@ -39,9 +39,15 @@ export default function Bonuses() {
                 <span className="inline-block bg-[#d5ffcf] text-[#15803d] text-xs font-extrabold px-3.5 py-1 rounded-full mb-3 uppercase tracking-wider shadow-2xs">
                   ✨ INCLUSO GRATUITAMENTE
                 </span>
-                <h3 className="font-fredoka text-xl sm:text-2xl font-extrabold mb-3 text-[#4C6FFF]">
-                  {bonus.title}
-                </h3>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-center md:justify-start gap-2 mb-3">
+                  <h3 className="font-fredoka text-xl sm:text-2xl font-extrabold text-[#4C6FFF]">
+                    {bonus.title}
+                  </h3>
+                  <div className="inline-flex items-center justify-center gap-1.5 text-xs sm:text-sm font-bold bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-lg w-fit mx-auto md:mx-0">
+                    <span className="text-gray-400 line-through">R$ 19,00</span>
+                    <span className="text-[#15803d]">GRÁTIS</span>
+                  </div>
+                </div>
                 <p className="text-[#374151] text-sm sm:text-base leading-relaxed font-medium">
                   {bonus.description}
                 </p>

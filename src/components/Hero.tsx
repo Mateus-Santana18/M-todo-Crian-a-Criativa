@@ -42,27 +42,24 @@ export default function Hero() {
         </h1>
 
         {/* Hero Bundle Mockup Graphic */}
-        <div className="max-w-3xl mx-auto mb-8 relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-[#FFE4A0] via-[#4C6FFF]/30 to-[#22c55e]/40 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition duration-500" />
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white border-[6px] border-white">
-            <img
-              src={HERO_MOCKUP_IMAGE}
-              alt="Kit Método Criança Criativa - Materiais educativos"
-              className="w-full h-auto object-cover max-h-[420px]"
-            />
-            
-            {/* Floating Trust Badges over Image */}
-            <div className="absolute bottom-4 left-4 right-4 flex flex-wrap justify-center gap-2 sm:gap-4 pointer-events-none">
-              <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-                <Sparkles className="w-4 h-4 text-[#E4A107]" /> +150 Brincadeiras Prontas
-              </span>
-              <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-                <Heart className="w-4 h-4 text-[#ef4444]" /> 100% Longe do Celular
-              </span>
-              <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-                <Award className="w-4 h-4 text-[#22c55e]" /> Aprovado por Pedagogas
-              </span>
-            </div>
+        <div className="max-w-3xl mx-auto mb-10 relative flex justify-center">
+          <img
+            src={HERO_MOCKUP_IMAGE}
+            alt="Kit Método Criança Criativa - Materiais educativos"
+            className="w-full h-auto object-contain max-h-[500px]"
+          />
+          
+          {/* Floating Trust Badges over Image */}
+          <div className="absolute bottom-4 left-4 right-4 flex flex-wrap justify-center gap-2 sm:gap-4 pointer-events-none">
+            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
+              <Sparkles className="w-4 h-4 text-[#E4A107]" /> +150 Brincadeiras Prontas
+            </span>
+            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
+              <Heart className="w-4 h-4 text-[#ef4444]" /> 100% Longe do Celular
+            </span>
+            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
+              <Award className="w-4 h-4 text-[#22c55e]" /> Aprovado por Pedagogas
+            </span>
           </div>
         </div>
 

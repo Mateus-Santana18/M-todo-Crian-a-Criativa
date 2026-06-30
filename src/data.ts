@@ -30,7 +30,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Caça ao Tesouro das Cores",
     category: "🌈 Exploração Sensorial",
     ageGroup: "2 a 6 anos",
-    image: "https://i.imgur.com/rnsYaY8.jpeg",
+    image: "https://i.imgur.com/xA4Abv1.jpeg",
     description: "Encontre objetos enquanto aprende brincando.",
     materials: ["Folha de atividades impressa do Kit", "Cestinha ou caixa", "Objetos variados da casa"],
     steps: [
@@ -90,7 +90,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Pintura com Gelo",
     category: "🎨 Arte Sensorial",
     ageGroup: "2 a 7 anos",
-    image: "https://i.imgur.com/kQtyhMd.jpeg",
+    image: "https://i.imgur.com/ClNwDuj.jpeg",
     description: "Pinte com cubos de gelo coloridos e crie lindas aquarelas.",
     materials: ["Forminha de gelo", "Corante alimentício ou guache", "Palitos de picolé", "Papel grosso"],
     steps: [
@@ -105,7 +105,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Matemática Divertida",
     category: "🧠 Raciocínio Lógico",
     ageGroup: "5 a 11 anos",
-    image: "https://i.imgur.com/RFl8KiR.jpeg",
+    image: "https://i.imgur.com/ko8TOLJ.jpeg",
     description: "Aprenda contas brincando de mercadinho.",
     materials: ["Fichas impressas do Bônus", "Dados de tabuleiro", "Grãos de feijão"],
     steps: [
@@ -120,7 +120,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Resgate dos Dinossauros",
     category: "🦖 Coordenação Fina",
     ageGroup: "2 a 6 anos",
-    image: "https://i.imgur.com/7hTU9ea.jpeg",
+    image: "https://i.imgur.com/u2GBL5L.jpeg",
     description: "Liberte os dinossauros presos no gelo e complete a missão.",
     materials: ["Pequenos brinquedos plásticos", "Pote plástco grande", "Água morna em conta-gotas"],
     steps: [

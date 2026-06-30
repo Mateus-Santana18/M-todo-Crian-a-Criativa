@@ -23,11 +23,11 @@ export default function PricingCard() {
               Método Criança Criativa
             </h2>
 
-            <div className="relative rounded-2xl overflow-hidden mb-8 shadow-lg border-2 border-white/10 bg-slate-800">
+            <div className="relative mb-8 flex justify-center">
               <img
                 src={HERO_MOCKUP_IMAGE}
                 alt="Kit Método Criança Criativa Pacote Completo"
-                className="w-full h-auto max-h-[220px] object-cover"
+                className="w-full h-auto max-h-[220px] object-contain"
               />
             </div>
 
