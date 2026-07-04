@@ -104,7 +104,7 @@ export default function Hero() {
             Quero o kit método criança criativa
           </a>
           <span className="text-xs sm:text-sm text-gray-500 flex items-center gap-1">
-            🔒 Compra Segura · Acesso Imediato por R$ 7,00
+            🔒 Compra Segura · Acesso Imediato por R$ 9,90
           </span>
         </div>
 

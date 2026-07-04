@@ -1,5 +1,4 @@
 import React from 'react';
-import { CHECKOUT_URL } from '../data';
 import { ShieldCheck, Sparkles } from 'lucide-react';
 
 export default function NotificationBar() {
@@ -18,10 +17,10 @@ export default function NotificationBar() {
             <ShieldCheck className="w-3.5 h-3.5 text-[#22c55e]" /> Garantia 7 dias
           </span>
           <a
-            href={CHECKOUT_URL}
+            href="#comparativo"
             className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-3 py-1 rounded-full transition shadow-sm hover:scale-105 active:scale-95 text-xs"
           >
-            GARANTIR POR R$ 7,00
+            GARANTIR POR R$ 9,90
           </a>
         </div>
       </div>

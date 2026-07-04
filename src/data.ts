@@ -2,10 +2,11 @@ import { Activity, BonusItem, FaqItem, Testimonial } from './types';
 import bonus1Img from './assets/bonus1.png';
 import bonus2Img from './assets/bonus2.png';
 import bonus3Img from './assets/bonus3.png';
+import heroMockupImg from './assets/hero_mockup.jpg';
 
-export const CHECKOUT_URL = "https://pay.vidasemtela.com/e82bh0vj?utm_source=site&utm_medium=organico&utm_campaign=vidasemtela";
+export const CHECKOUT_URL = "https://pay.cakto.com.br/t9roohk_959253";
 
-export const HERO_MOCKUP_IMAGE = "https://i.imgur.com/PVIjYVz.png";
+export const HERO_MOCKUP_IMAGE = heroMockupImg;
 
 export const WHY_IT_WORKS_IMAGE = "https://i.imgur.com/K146vY5.jpeg";
 

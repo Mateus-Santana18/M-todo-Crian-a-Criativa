@@ -84,15 +84,15 @@ export default function PricingCard() {
               </p>
               <div className="flex items-baseline justify-center gap-1 mb-6">
                 <span className="text-2xl font-bold text-white/90">R$</span>
-                <span className="text-6xl sm:text-7xl font-extrabold text-white tracking-tight">7</span>
-                <span className="text-3xl font-extrabold text-[#22c55e]">,00</span>
+                <span className="text-6xl sm:text-7xl font-extrabold text-white tracking-tight">9</span>
+                <span className="text-3xl font-extrabold text-[#22c55e]">,90</span>
               </div>
 
               <a
                 href={CHECKOUT_URL}
                 className="cta-checkout block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-xl py-5 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse uppercase tracking-wide transform active:scale-95"
               >
-                ACESSAR AGORA POR R$ 7
+                ACESSAR AGORA POR R$ 9,90
               </a>
 
               <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-5 pt-4 border-t border-white/10">
@@ -109,7 +109,7 @@ export default function PricingCard() {
         </div>
 
         <div className="mt-8 text-center bg-amber-50 border border-amber-200 rounded-2xl p-4 text-amber-800 text-xs sm:text-sm">
-          ⚠️ <strong>Aviso:</strong> Devido à alta demanda, o preço promocional de R$ 7,00 pode retornar ao valor normal de R$ 49,00 a qualquer momento.
+          ⚠️ <strong>Aviso:</strong> Devido à alta demanda, o preço promocional de R$ 9,90 pode retornar ao valor normal de R$ 49,00 a qualquer momento.
         </div>
       </div>
     </section>

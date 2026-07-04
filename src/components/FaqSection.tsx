@@ -1,5 +1,5 @@
 import React from 'react';
-import { FAQ_DATA, CHECKOUT_URL } from '../data';
+import { FAQ_DATA } from '../data';
 import { HelpCircle, ChevronDown } from 'lucide-react';
 
 export default function FaqSection() {
@@ -38,10 +38,10 @@ export default function FaqSection() {
           <div className="text-center bg-gradient-to-r from-[#4C6FFF]/20 via-[#22c55e]/20 to-[#E4A107]/20 p-8 rounded-3xl border border-white/10">
             <h3 className="font-fredoka font-bold text-xl mb-2 text-white">Pronto para transformar a rotina da sua casa?</h3>
             <p className="text-gray-300 text-sm mb-6 max-w-lg mx-auto">
-              Experimente por 7 dias com risco zero. Se o comportamento do seu filho não melhorar, devolvemos seus R$ 7,00.
+              Experimente por 7 dias com risco zero. Se o comportamento do seu filho não melhorar, devolvemos seus R$ 9,90.
             </p>
             <a
-              href={CHECKOUT_URL}
+              href="#comparativo"
               className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
             >
               SIM, QUERO COMEÇAR O DESAFIO HOJE

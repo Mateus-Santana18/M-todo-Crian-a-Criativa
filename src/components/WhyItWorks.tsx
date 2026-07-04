@@ -1,5 +1,5 @@
 import React from 'react';
-import { WHY_IT_WORKS_IMAGE, CHECKOUT_URL } from '../data';
+import { WHY_IT_WORKS_IMAGE } from '../data';
 import { CheckCircle2, Heart, Zap, Smile } from 'lucide-react';
 
 export default function WhyItWorks() {
@@ -81,7 +81,7 @@ export default function WhyItWorks() {
 
         <div className="text-center">
           <a
-            href={CHECKOUT_URL}
+            href="#comparativo"
             className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg md:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
           >
             Quero o kit método criança criativa
