@@ -15,21 +15,8 @@ export default function Hero() {
       <div className="absolute bottom-10 left-10 w-72 h-72 bg-[#C7D2FE] rounded-full blur-3xl opacity-40 pointer-events-none -z-0" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        {/* Logo Badge */}
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-5 py-2.5 rounded-full shadow-sm border border-[#FFE4A0] mb-6">
-          <div className="w-8 h-8 bg-[#4C6FFF] rounded-full flex items-center justify-center text-white shadow-inner font-bold text-lg">
-            🌱
-          </div>
-          <span className="font-fredoka font-extrabold text-xl md:text-2xl tracking-tight text-[#0F172A]">
-            Método Criança Criativa
-          </span>
-          <span className="bg-[#FFF1CF] text-[#E4A107] text-[11px] font-bold px-2 py-0.5 rounded-full ml-1">
-            KIT OFICIAL
-          </span>
-        </div>
-
         {/* H1 Headline */}
-        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight max-w-4xl mx-auto">
+        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight max-w-4xl mx-auto pt-6">
           Em apenas 7 dias, seu filho pode{' '}
           <span className="text-[#4C6FFF] relative inline-block">
             reduzir o tempo nas telas
@@ -66,42 +53,38 @@ export default function Hero() {
         {/* Subtitle / Benefits Section */}
         <div className="text-base sm:text-lg md:text-xl text-[#374151] mb-8 max-w-2xl mx-auto font-medium space-y-6">
           <p className="leading-relaxed">
-            Com atividades práticas, envolventes e fáceis de aplicar, você estimula a criatividade, a concentração e o desenvolvimento infantil sem precisar comprar materiais.
+            Com atividades práticas e divertidas, estimule a criatividade e a concentração do seu filho sem precisar comprar materiais extras! 🎨✨
           </p>
           
           <div className="flex justify-center">
             <div className="inline-flex flex-col text-left gap-2.5 bg-white/60 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm max-w-md w-full">
-              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
-                <span className="text-green-500 font-extrabold">✅</span>
-                <span>Apenas 15 a 30 minutos por dia</span>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800 font-bold">
+                <span>⏱️ Apenas 15 a 30 minutos por dia</span>
               </div>
-              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
-                <span className="text-green-500 font-extrabold">✅</span>
-                <span>Atividades simples para fazer em casa</span>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800 font-bold">
+                <span>🏠 Atividades simples para fazer em casa</span>
               </div>
-              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
-                <span className="text-green-500 font-extrabold">✅</span>
-                <span>Utilize objetos que você já possui</span>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800 font-bold">
+                <span>♻️ Use objetos que você já tem em mãos</span>
               </div>
-              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800">
-                <span className="text-green-500 font-extrabold">✅</span>
-                <span>Mais interação, aprendizado e momentos em família</span>
+              <div className="flex items-center gap-2 text-sm sm:text-base text-gray-800 font-bold">
+                <span>👨‍👩‍👧‍👦 Mais conexão, aprendizado e diversão em família</span>
               </div>
             </div>
           </div>
 
-          <p className="font-extrabold text-[#4C6FFF] tracking-wide text-lg sm:text-xl uppercase">
-            Menos telas. Mais criatividade. Mais desenvolvimento.
+          <p className="font-extrabold text-[#4C6FFF] tracking-wide text-sm sm:text-base uppercase">
+            🚫 Menos Telas · 💡 Mais Criatividade · 🚀 Mais Desenvolvimento
           </p>
         </div>
 
         {/* CTA Button */}
         <div className="flex flex-col items-center gap-3">
           <a
-            href="#comparativo"
+            href="#sec-atividades"
             className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl md:text-2xl py-4 sm:py-5 px-8 sm:px-12 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse hover:-translate-y-1 active:translate-y-0 uppercase"
           >
-            Quero o kit método criança criativa
+            quero saber o que vem no kit!
           </a>
           <span className="text-xs sm:text-sm text-gray-500 flex items-center gap-1">
             🔒 Compra Segura · Acesso Imediato por R$ 9,90
