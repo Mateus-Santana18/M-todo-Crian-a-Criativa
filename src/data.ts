@@ -2,13 +2,13 @@ import { Activity, BonusItem, FaqItem, Testimonial } from './types';
 import bonus1Img from './assets/bonus1.png';
 import bonus2Img from './assets/bonus2.png';
 import bonus3Img from './assets/bonus3.png';
-import heroMockupImg from './assets/hero_mockup.jpg';
+import heroMockupImg from './assets/hero_mockup.png';
 
 export const CHECKOUT_URL = "https://pay.cakto.com.br/t9roohk_959253";
 
 export const HERO_MOCKUP_IMAGE = heroMockupImg;
 
-export const WHY_IT_WORKS_IMAGE = "https://i.imgur.com/K146vY5.jpeg";
+export const WHY_IT_WORKS_IMAGE = "https://i.imgur.com/xa4vd3g.png";
 
 export const ACTIVITIES_DATA: Activity[] = [
   {
@@ -16,7 +16,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Labirinto de Barbante",
     category: "🎯 Coordenação Motora",
     ageGroup: "5 a 10 anos",
-    image: "https://i.imgur.com/RuFltB2.jpeg",
+    image: "https://i.imgur.com/Uy9Bw5o.jpeg",
     description: "Transforme sua casa em uma missão de agente secreto.",
     materials: ["Barbante ou lã colorida", "Fita crepe", "Corredor ou cadeiras"],
     steps: [
@@ -31,7 +31,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Caça ao Tesouro das Cores",
     category: "🌈 Exploração Sensorial",
     ageGroup: "2 a 6 anos",
-    image: "https://i.imgur.com/xA4Abv1.jpeg",
+    image: "https://i.imgur.com/1ob66UX.jpeg",
     description: "Encontre objetos enquanto aprende brincando.",
     materials: ["Folha de atividades impressa do Kit", "Cestinha ou caixa", "Objetos variados da casa"],
     steps: [
@@ -46,7 +46,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Bolhas Gigantes",
     category: "🧪 Ciência & Ar Livre",
     ageGroup: "3 a 12 anos",
-    image: "https://i.imgur.com/yw2Hc6E.jpeg",
+    image: "https://i.imgur.com/aDXlUaQ.jpeg",
     description: "Crie bolhas enormes com uma receita simples e divertida.",
     materials: ["Água", "Detergente", "2 colheres de açúcar ou amido", "Dois palitos e barbante"],
     steps: [
@@ -61,7 +61,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Teatro de Sombras",
     category: "🎭 Criatividade",
     ageGroup: "4 a 9 anos",
-    image: "https://i.imgur.com/grSSdsF.jpeg",
+    image: "https://i.imgur.com/l5mrcKG.jpeg",
     description: "Conte histórias mágicas usando apenas uma lanterna.",
     materials: ["Moldes recortados do Kit", "Palitos de churrasco sem ponta", "Lanterna"],
     steps: [
@@ -76,7 +76,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Torre Geométrica",
     category: "🏗️ Lógica & Engenharia",
     ageGroup: "6 a 12 anos",
-    image: "https://i.imgur.com/QuxlWJK.jpeg",
+    image: "https://i.imgur.com/Cmy3gIQ.jpeg",
     description: "Construa a torre mais alta sem deixá-la cair.",
     materials: ["Massinha de modelar ou jujubas", "Palitos de dente ou espaguete cru"],
     steps: [
@@ -91,7 +91,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Pintura com Gelo",
     category: "🎨 Arte Sensorial",
     ageGroup: "2 a 7 anos",
-    image: "https://i.imgur.com/ClNwDuj.jpeg",
+    image: "https://i.imgur.com/5naU3tT.jpeg",
     description: "Pinte com cubos de gelo coloridos e crie lindas aquarelas.",
     materials: ["Forminha de gelo", "Corante alimentício ou guache", "Palitos de picolé", "Papel grosso"],
     steps: [
@@ -106,7 +106,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Matemática Divertida",
     category: "🧠 Raciocínio Lógico",
     ageGroup: "5 a 11 anos",
-    image: "https://i.imgur.com/ko8TOLJ.jpeg",
+    image: "https://i.imgur.com/6UMd4Kj.jpeg",
     description: "Aprenda contas brincando de mercadinho.",
     materials: ["Fichas impressas do Bônus", "Dados de tabuleiro", "Grãos de feijão"],
     steps: [
@@ -121,7 +121,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Resgate dos Dinossauros",
     category: "🦖 Coordenação Fina",
     ageGroup: "2 a 6 anos",
-    image: "https://i.imgur.com/u2GBL5L.jpeg",
+    image: "https://i.imgur.com/8h482K9.jpeg",
     description: "Liberte os dinossauros presos no gelo e complete a missão.",
     materials: ["Pequenos brinquedos plásticos", "Pote plástco grande", "Água morna em conta-gotas"],
     steps: [
