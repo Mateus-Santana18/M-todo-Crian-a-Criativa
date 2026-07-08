@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { HERO_MOCKUP_IMAGE } from '../data';
-import { Sparkles, Heart, Award, ArrowDown } from 'lucide-react';
+import { ArrowDown, ChevronLeft, ChevronRight } from 'lucide-react';
+
+const HERO_CAROUSEL_IMAGES = [
+  "https://i.imgur.com/3PaHmTk.jpeg",
+  "https://i.imgur.com/2KbTGav.jpeg",
+  "https://i.imgur.com/xysOBO9.jpeg",
+  "https://i.imgur.com/6wR2sAr.jpeg",
+  "https://i.imgur.com/SsfHSR4.png"
+];
 
 export default function Hero() {
+  const [activeImg, setActiveImg] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveImg((prev) => (prev === HERO_CAROUSEL_IMAGES.length - 1 ? 0 : prev + 1));
+    }, 3000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section
       id="sec-hero"
@@ -28,26 +45,52 @@ export default function Hero() {
           <span className="text-[#22c55e]">aprender, criar e se divertir!</span>
         </h1>
 
-        {/* Hero Bundle Mockup Graphic */}
-        <div className="max-w-3xl mx-auto mb-10 relative flex justify-center">
-          <img
-            src={HERO_MOCKUP_IMAGE}
-            alt="Kit Método Criança Criativa - Materiais educativos"
-            className="w-full h-auto object-contain max-h-[500px]"
-          />
-          
-          {/* Floating Trust Badges over Image */}
-          <div className="absolute bottom-4 left-4 right-4 flex flex-wrap justify-center gap-2 sm:gap-4 pointer-events-none">
-            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-              <Sparkles className="w-4 h-4 text-[#E4A107]" /> +150 Brincadeiras Prontas
-            </span>
-            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-              <Heart className="w-4 h-4 text-[#ef4444]" /> 100% Longe do Celular
-            </span>
-            <span className="bg-[#0F172A]/85 backdrop-blur text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border border-white/20">
-              <Award className="w-4 h-4 text-[#22c55e]" /> Aprovado por Pedagogas
-            </span>
+        {/* Hero Carousel */}
+        <div className="max-w-[420px] mx-auto mb-10 relative group overflow-hidden rounded-3xl shadow-xl border-4 border-white bg-white aspect-[3/4]">
+          <div 
+            className="flex transition-transform duration-700 ease-in-out h-full"
+            style={{ transform: `translateX(-${activeImg * (100 / HERO_CAROUSEL_IMAGES.length)}%)`, width: `${HERO_CAROUSEL_IMAGES.length * 100}%` }}
+          >
+            {HERO_CAROUSEL_IMAGES.map((src, idx) => (
+              <div key={idx} style={{ width: `${100 / HERO_CAROUSEL_IMAGES.length}%` }} className="h-full flex-shrink-0 flex items-center justify-center bg-white">
+                <img
+                  src={src}
+                  alt={`Amostra do Kit ${idx + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
+
+          {/* Dots Indicator */}
+          <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
+            {HERO_CAROUSEL_IMAGES.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => setActiveImg(idx)}
+                className={`w-2.5 h-2.5 rounded-full transition-all ${
+                  activeImg === idx ? 'bg-[#4C6FFF] w-6' : 'bg-gray-300/80 hover:bg-gray-400'
+                }`}
+                aria-label={`Ir para imagem ${idx + 1}`}
+              />
+            ))}
+          </div>
+          
+          {/* Navigation Arrows */}
+          <button
+            onClick={() => setActiveImg((prev) => (prev === 0 ? HERO_CAROUSEL_IMAGES.length - 1 : prev - 1))}
+            className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center shadow-md transition-opacity duration-300 opacity-0 group-hover:opacity-100 z-20"
+            aria-label="Imagem anterior"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          <button
+            onClick={() => setActiveImg((prev) => (prev === HERO_CAROUSEL_IMAGES.length - 1 ? 0 : prev + 1))}
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center shadow-md transition-opacity duration-300 opacity-0 group-hover:opacity-100 z-20"
+            aria-label="Próxima imagem"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
         </div>
 
         {/* Subtitle / Benefits Section */}
