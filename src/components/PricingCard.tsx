@@ -3,6 +3,25 @@ import { HERO_MOCKUP_IMAGE, CHECKOUT_URL } from '../data';
 import { Check, ShieldAlert, Sparkles, Lock } from 'lucide-react';
 
 export default function PricingCard() {
+  React.useEffect(() => {
+    const offerButton = document.getElementById('cta-purchase');
+    if (offerButton && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if ((window as any).fbq) {
+              (window as any).fbq('track', 'ViewContent');
+              console.log('Meta Pixel: ViewContent event tracked on purchase button visibility');
+            }
+            observerInstance.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      observer.observe(offerButton);
+      return () => observer.disconnect();
+    }
+  }, []);
+
   return (
     <section id="comparativo" data-section="Preços" className="py-16 px-4 bg-gradient-to-b from-white to-slate-100">
       <div className="max-w-lg mx-auto">
@@ -89,7 +108,13 @@ export default function PricingCard() {
               </div>
 
               <a
+                id="cta-purchase"
                 href={CHECKOUT_URL}
+                onClick={() => {
+                  if (typeof window !== 'undefined' && (window as any).fbq) {
+                    (window as any).fbq('track', 'AddToCart');
+                  }
+                }}
                 className="cta-checkout block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-xl py-5 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse uppercase tracking-wide transform active:scale-95"
               >
                 ACESSAR AGORA POR R$ 9,90
