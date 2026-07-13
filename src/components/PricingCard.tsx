@@ -72,7 +72,7 @@ export default function PricingCard() {
                   <Sparkles className="w-3.5 h-3.5" />
                 </span>
                 <span className="text-gray-100 font-semibold text-sm sm:text-base">
-                  Bônus #1: Guia "Mãe de Sucesso"
+                  Bônus #1: Guia da Família Criativa
                 </span>
               </li>
               <li className="flex items-center gap-3 border-b border-white/10 pb-3">
@@ -80,7 +80,7 @@ export default function PricingCard() {
                   <Sparkles className="w-3.5 h-3.5" />
                 </span>
                 <span className="text-gray-100 font-semibold text-sm sm:text-base">
-                  Bônus #2: Caligrafia Divertida
+                  Bônus #2: Oficina da Escrita Criativa
                 </span>
               </li>
               <li className="flex items-center gap-3 border-b border-white/10 pb-3">
@@ -88,7 +88,7 @@ export default function PricingCard() {
                   <Sparkles className="w-3.5 h-3.5" />
                 </span>
                 <span className="text-gray-100 font-semibold text-sm sm:text-base">
-                  Bônus #3: Matemática Lúdica
+                  Bônus #3: Desafios Matemáticos
                 </span>
               </li>
             </ul>

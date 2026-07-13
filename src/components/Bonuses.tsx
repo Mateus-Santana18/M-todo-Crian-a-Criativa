@@ -40,7 +40,7 @@ export default function Bonuses() {
                   ✨ INCLUSO GRATUITAMENTE
                 </span>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-center md:justify-start gap-2 mb-3">
-                  <h3 className="font-fredoka text-xl sm:text-2xl font-extrabold text-[#4C6FFF]">
+                  <h3 className="font-fredoka text-xl sm:text-2xl font-bold text-[#4C6FFF] tracking-wide">
                     {bonus.title}
                   </h3>
                   <div className="inline-flex items-center justify-center gap-1.5 text-xs sm:text-sm font-bold bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-lg w-fit mx-auto md:mx-0">

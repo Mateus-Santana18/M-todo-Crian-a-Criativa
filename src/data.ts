@@ -137,21 +137,21 @@ export const BONUSES_DATA: BonusItem[] = [
   {
     id: "bonus-1",
     badge: "BRINDE",
-    title: "CALIGRAFIA DIVERTIDA",
+    title: "OFICINA DA ESCRITA CRIATIVA",
     description: "Transforme a escrita em uma brincadeira! Atividades envolventes que ajudam seu filho a melhorar a letra de forma leve, divertida e natural.",
     image: bonus1Img
   },
   {
     id: "bonus-2",
     badge: "BRINDE",
-    title: "MÃE DE SUCESSO",
+    title: "GUIA DA FAMÍLIA CRIATIVA",
     description: "Mesmo com a rotina corrida, descubra como criar momentos inesquecíveis e fortalecer a conexão com seu filho todos os dias",
     image: bonus2Img
   },
   {
     id: "bonus-3",
     badge: "BRINDE",
-    title: "MATEMÁTICA LÚDICA",
+    title: "DESAFIOS MATEMÁTICOS",
     description: "Seu filho aprende números e continhas brincando, com atividades práticas usando materiais que você já tem em casa",
     image: bonus3Img
   }
@@ -172,7 +172,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: "Carlos Eduardo",
     role: "Pai da Marina e Lucca - Curitiba, PR",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80",
-    content: "O bônus de Matemática Lúdica vale 100x mais que o valor de 7 reais do kit todo. A didática é absurda de simples. Fazemos o 'mercadinho dos grãos' quase todo dia. Parabéns aos criadores!",
+    content: "O bônus de Desafios Matemáticos vale 100x mais que o valor de 7 reais do kit todo. A didática é absurda de simples. Fazemos o 'mercadinho dos grãos' quase todo dia. Parabéns aos criadores!",
     likes: "48",
     time: "Ontem às 19:10"
   },
@@ -199,7 +199,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: "Marcos Vinícius",
     role: "Pai do Davi (5 anos) - Goiânia, GO",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80",
-    content: "O guia 'Mãe de Sucesso' ajudou muito minha esposa e eu na rotina corrida. Atividades de 15 minutinhos que mudaram o humor do nosso filho antes de dormir. Zero brigas por causa do Youtube agora.",
+    content: "O 'Guia da Família Criativa' ajudou muito minha esposa e eu na rotina corrida. Atividades de 15 minutinhos que mudaram o humor do nosso filho antes de dormir. Zero brigas por causa do Youtube agora.",
     likes: "42",
     time: "3 dias atrás"
   }
