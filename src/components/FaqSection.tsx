@@ -38,7 +38,7 @@ export default function FaqSection() {
           <div className="text-center bg-gradient-to-r from-[#4C6FFF]/20 via-[#22c55e]/20 to-[#E4A107]/20 p-8 rounded-3xl border border-white/10">
             <h3 className="font-fredoka font-bold text-xl mb-2 text-white">Pronto para transformar a rotina da sua casa?</h3>
             <p className="text-gray-300 text-sm mb-6 max-w-lg mx-auto">
-              Experimente por 7 dias com risco zero. Se o comportamento do seu filho não melhorar, devolvemos seus R$ 9,90.
+              Experimente por 7 dias com risco zero. Se o comportamento do seu filho não melhorar, devolvemos seus R$ 14,90.
             </p>
             <a
               href="#comparativo"

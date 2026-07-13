@@ -20,7 +20,7 @@ export default function NotificationBar() {
             href="#comparativo"
             className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-3 py-1 rounded-full transition shadow-sm hover:scale-105 active:scale-95 text-xs"
           >
-            GARANTIR POR R$ 9,90
+            GARANTIR POR R$ 14,90
           </a>
         </div>
       </div>

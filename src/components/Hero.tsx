@@ -130,7 +130,7 @@ export default function Hero() {
             quero saber o que vem no kit!
           </a>
           <span className="text-xs sm:text-sm text-gray-500 flex items-center gap-1">
-            🔒 Compra Segura · Acesso Imediato por R$ 9,90
+            🔒 Compra Segura · Acesso Imediato por R$ 14,90
           </span>
         </div>
 
