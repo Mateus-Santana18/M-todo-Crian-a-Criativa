@@ -160,10 +160,10 @@ export default function ActivitiesGrid() {
             </div>
           </div>
           <a
-            href="#comparativo"
+            href="#sec-porque"
             className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold text-sm py-3 px-6 rounded-full transition shadow whitespace-nowrap"
           >
-            QUERO MEU KIT COMPLETO
+            QUERO VER COMO FUNCIONA
           </a>
         </div>
       </div>

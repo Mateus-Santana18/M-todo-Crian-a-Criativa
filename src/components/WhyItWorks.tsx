@@ -27,8 +27,8 @@ export default function WhyItWorks() {
                 📈
               </div>
               <div>
-                <div className="text-xs text-gray-500 font-semibold">Tempo de Tela</div>
-                <div className="text-sm font-extrabold text-[#16a34a]">-80% na primeira semana</div>
+                <div className="text-xs text-gray-500 font-semibold">📱 Menos tempo de tela</div>
+                <div className="text-sm font-extrabold text-[#16a34a]">Resultados já na 1ª semana</div>
               </div>
             </div>
           </div>
@@ -81,12 +81,12 @@ export default function WhyItWorks() {
 
         <div className="text-center">
           <a
-            href="#comparativo"
+            href="#sec-bonus"
             className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg md:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
           >
-            Quero o kit método criança criativa
+            Quero ver meus 3 bônus exclusivos
           </a>
-          <p className="text-xs text-gray-500 mt-3">⚡ Envio automático por e-mail em formato PDF e Web</p>
+          <p className="text-xs text-gray-500 mt-3">⬇️Veja abaixo tudo o que está incluso sem custo adicional.</p>
         </div>
       </div>
     </section>
