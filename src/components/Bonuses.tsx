@@ -62,6 +62,15 @@ export default function Bonuses() {
             Todos os 3 bônus serão enviados no mesmo e-mail de acesso imediato!
           </p>
         </div>
+
+        <div className="mt-8 text-center">
+          <a
+            href="#comparativo"
+            className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl py-4 sm:py-5 px-8 sm:px-12 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse uppercase"
+          >
+            👇 QUERO GARANTIR MEU KIT COM OS 3 BÔNUS
+          </a>
+        </div>
       </div>
     </section>
   );

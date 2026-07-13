@@ -155,15 +155,15 @@ export default function ActivitiesGrid() {
               🎨
             </div>
             <div>
-              <h4 className="font-fredoka font-bold text-lg text-[#0F172A]">Todas as +150 atividades estão organizadas por idade!</h4>
-              <p className="text-xs sm:text-sm text-gray-700">De 0 a 12 anos. Brincadeiras sensoriais, desafios cognitivos e arte.</p>
+              <h4 className="font-fredoka font-bold text-lg text-[#0F172A]">Mais de 150 atividades para tirar seu filho das telas.</h4>
+              <p className="text-xs sm:text-sm text-gray-700">Organizadas por idade, de 0 a 12 anos.</p>
             </div>
           </div>
           <a
-            href="#sec-porque"
+            href="#comparativo"
             className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold text-sm py-3 px-6 rounded-full transition shadow whitespace-nowrap"
           >
-            QUERO VER COMO FUNCIONA
+            QUERO GARANTIR MEU KIT AGORA
           </a>
         </div>
       </div>

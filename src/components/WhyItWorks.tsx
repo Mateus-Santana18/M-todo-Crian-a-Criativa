@@ -84,7 +84,7 @@ export default function WhyItWorks() {
             href="#sec-bonus"
             className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg md:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
           >
-            Quero ver meus 3 bônus exclusivos
+            QUERO VER TUDO O QUE VOU RECEBER
           </a>
           <p className="text-xs text-gray-500 mt-3">⬇️Veja abaixo tudo o que está incluso sem custo adicional.</p>
         </div>
