@@ -80,13 +80,13 @@ export default function DownsellPage() {
                 offer-id="syrd4dk"
                 app-base-url="https://app.cakto.com.br"
                 offer-type="downsell"
-                upsell-reject-url="members_area"
+                upsell-reject-url="https://metodocriancacriativa.vercel.app/obrigado"
               >
                 🎉 SIM, QUERO APROVEITAR O DESCONTO
               </cakto-upsell-accept>
               
               <cakto-upsell-reject
-                upsell-reject-url="members_area"
+                upsell-reject-url="https://metodocriancacriativa.vercel.app/obrigado"
               >
                 Não, obrigado. Desejo recusar o desconto de R$ 5,00 e ir direto para o meu acesso do kit básico.
               </cakto-upsell-reject>
