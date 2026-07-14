@@ -136,6 +136,21 @@ export default function PricingCard() {
         <div className="mt-8 text-center bg-amber-50 border border-amber-200 rounded-2xl p-4 text-amber-800 text-xs sm:text-sm">
           ⚠️ <strong>Atenção:</strong> O preço promocional já foi reajustado de R$ 9,90 para R$ 14,90. Em breve, o valor será atualizado para R$ 37,90. Garanta seu acesso agora antes do próximo aumento.
         </div>
+
+        {/* WhatsApp Support Button */}
+        <div className="mt-6 text-center">
+          <a
+            href="https://api.whatsapp.com/send?phone=5548988782641&text=Ol%C3%A1%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20M%C3%A9todo%20Crian%C3%A7a%20Criativa."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-sm py-3 px-6 rounded-full transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 cursor-pointer"
+          >
+            <svg className="w-4.5 h-4.5 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436.002 9.858-4.417 9.86-9.86.002-2.63-1.023-5.101-2.887-6.963C16.578 1.944 14.103.92 11.47.92 6.035.92 1.617 5.339 1.615 10.78c-.001 1.69.453 3.336 1.316 4.786L1.91 21.041l5.737-1.505zm12.355-6.8c-.33-.164-1.943-.96-2.244-1.07-.301-.109-.52-.164-.74.164-.22.33-.85 1.07-1.04 1.28-.19.21-.38.24-.71.077-.33-.164-1.393-.513-2.653-1.638-.98-.874-1.64-1.953-1.83-2.28-.19-.33-.02-.51.145-.672.15-.145.33-.33.495-.494.165-.165.22-.28.33-.495.11-.21.055-.39-.03-.55-.08-.164-.74-1.785-1.013-2.441-.267-.643-.536-.556-.74-.566-.21-.01-.448-.01-.687-.01-.24 0-.632.09-1.013.495-.38.41-1.452 1.42-1.452 3.46 0 2.04 1.485 4.015 1.69 4.29 2.04 2.8 4.218 4.26 6.3 5.06 2.08.8 2.76.64 3.74.49 1 .15 2.244-.92 2.56-1.81.316-.89.316-1.65.22-1.81-.09-.165-.3-.26-.63-.425z"/>
+            </svg>
+            <span>Dúvidas? Fale Conosco no WhatsApp</span>
+          </a>
+        </div>
       </div>
     </section>
   );
