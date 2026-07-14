@@ -3,8 +3,7 @@ import datasComemorativasImg from '../assets/datas_comemorativas.jpg';
 import { Gift, CheckCircle, ShieldCheck, Clock, Flame, Percent } from 'lucide-react';
 
 export default function DownsellPage() {
-  // Temporary placeholder link. The user will replace this with their actual Cakto Downsell Checkout Link.
-  const DOWNSELL_CHECKOUT_URL = "#";
+
 
   return (
     <div className="min-h-screen bg-slate-50 py-10 px-4">
@@ -72,15 +71,28 @@ export default function DownsellPage() {
               <span className="text-2xl font-extrabold text-[#E4A107]">,90</span>
             </div>
 
-            {/* CTA Button */}
-            <a
-              href={DOWNSELL_CHECKOUT_URL}
-              className="cta-checkout block w-full bg-[#E4A107] hover:bg-[#c28803] text-white font-extrabold text-lg sm:text-xl py-4 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse uppercase tracking-wide transform active:scale-95 text-center"
-            >
-              🎉 SIM, QUERO APROVEITAR O DESCONTO
-            </a>
+            {/* Cakto 1-Click Downsell Buttons */}
+            <cakto-upsell-buttons>
+              <cakto-upsell-accept
+                bg-color="#22c55eff"
+                text-color="#ffffff"
+                upsell-accept-url="members_area"
+                offer-id="syrd4dk"
+                app-base-url="https://app.cakto.com.br"
+                offer-type="downsell"
+                upsell-reject-url="members_area"
+              >
+                🎉 SIM, QUERO APROVEITAR O DESCONTO
+              </cakto-upsell-accept>
+              
+              <cakto-upsell-reject
+                upsell-reject-url="members_area"
+              >
+                Não, obrigado. Desejo recusar o desconto de R$ 5,00 e ir direto para o meu acesso do kit básico.
+              </cakto-upsell-reject>
+            </cakto-upsell-buttons>
             
-            <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-4 pt-4 border-t border-white/10">
+            <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-6 pt-4 border-t border-white/10">
               <span className="flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#22c55e]" /> Garantia de Satisfação
               </span>
@@ -89,16 +101,6 @@ export default function DownsellPage() {
                 <Clock className="w-3.5 h-3.5 text-amber-500" /> Envio Automático
               </span>
             </div>
-          </div>
-
-          {/* Decline Link */}
-          <div className="mt-8">
-            <a
-              href="obrigado.html"
-              className="text-xs sm:text-sm text-gray-400 hover:text-red-500 font-semibold transition underline tracking-wide"
-            >
-              Não, obrigado. Desejo recusar o desconto de R$ 5,00 e ir direto para o meu acesso do kit básico.
-            </a>
           </div>
         </div>
       </div>

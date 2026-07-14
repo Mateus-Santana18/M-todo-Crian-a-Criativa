@@ -3,8 +3,7 @@ import datasComemorativasImg from '../assets/datas_comemorativas.jpg';
 import { Gift, CheckCircle, ShieldCheck, Clock, Flame, Calendar, Award, Sparkles, BookOpen } from 'lucide-react';
 
 export default function UpsellPage() {
-  // Temporary placeholder link. The user will replace this with their actual Cakto Checkout Link.
-  const UPSELL_CHECKOUT_URL = "#";
+
 
   return (
     <div className="min-h-screen bg-slate-50 py-10 px-4">
@@ -98,15 +97,28 @@ export default function UpsellPage() {
               <span className="text-2xl font-extrabold text-[#22c55e]">,90</span>
             </div>
 
-            {/* CTA Button */}
-            <a
-              href={UPSELL_CHECKOUT_URL}
-              className="cta-checkout block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl py-4.5 px-8 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse uppercase tracking-wide transform active:scale-95 text-center"
-            >
-              🚀 SIM, QUERO ADICIONAR AO MEU PEDIDO
-            </a>
+            {/* Cakto 1-Click Upsell Buttons */}
+            <cakto-upsell-buttons>
+              <cakto-upsell-accept
+                bg-color="#22c55eff"
+                text-color="#ffffff"
+                upsell-accept-url="members_area"
+                offer-id="cpo3asi"
+                app-base-url="https://app.cakto.com.br"
+                offer-type="upsell"
+                upsell-reject-url="https://metodocriancacriativa.vercel.app/downsell"
+              >
+                🚀 SIM, QUERO ADICIONAR AO MEU PEDIDO
+              </cakto-upsell-accept>
+              
+              <cakto-upsell-reject
+                upsell-reject-url="https://metodocriancacriativa.vercel.app/downsell"
+              >
+                Não, obrigado. Não desejo datas comemorativas e prefiro perder essa oportunidade exclusiva para sempre.
+              </cakto-upsell-reject>
+            </cakto-upsell-buttons>
             
-            <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-4 pt-4 border-t border-white/10">
+            <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-6 pt-4 border-t border-white/10">
               <span className="flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#22c55e]" /> Compra Segura Cakto
               </span>
@@ -115,16 +127,6 @@ export default function UpsellPage() {
                 <Clock className="w-3.5 h-3.5 text-amber-500" /> Acesso Imediato
               </span>
             </div>
-          </div>
-
-          {/* Decline Link */}
-          <div className="mt-8">
-            <a
-              href="downsell.html"
-              className="text-xs sm:text-sm text-gray-400 hover:text-red-500 font-semibold transition underline tracking-wide"
-            >
-              Não, obrigado. Não desejo datas comemorativas e prefiro perder essa oportunidade exclusiva para sempre.
-            </a>
           </div>
         </div>
       </div>
