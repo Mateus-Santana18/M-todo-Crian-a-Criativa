@@ -36,15 +36,15 @@ export default function FaqSection() {
           </div>
 
           <div className="text-center bg-gradient-to-r from-[#4C6FFF]/20 via-[#22c55e]/20 to-[#E4A107]/20 p-8 rounded-3xl border border-white/10">
-            <h3 className="font-fredoka font-bold text-xl mb-2 text-white">Pronto para transformar a rotina da sua casa?</h3>
+            <h3 className="font-fredoka font-bold text-xl mb-2 text-white">Pronto para ver seu filho mais ativo, criativo e longe das telas?</h3>
             <p className="text-gray-300 text-sm mb-6 max-w-lg mx-auto">
-              Experimente por 7 dias com risco zero. Se o comportamento do seu filho não melhorar, devolvemos seus R$ 14,90.
+              Experimente o Método Criança Criativa por apenas R$ 14,90. Você tem 7 dias de garantia incondicional. Se não ficar satisfeito, devolvemos 100% do seu dinheiro.
             </p>
             <a
               href="#comparativo"
               className="cta-checkout inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-extrabold text-lg sm:text-xl py-4 sm:py-5 px-10 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl cta-pulse"
             >
-              SIM, QUERO COMEÇAR O DESAFIO HOJE
+              🚀 SIM, QUERO COMEÇAR AGORA POR R$ 14,90
             </a>
           </div>
         </div>
