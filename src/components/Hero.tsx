@@ -50,7 +50,7 @@ export default function Hero() {
 
         {/* Subtitle / Benefits Section (Directly under Headline) */}
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto font-bold leading-relaxed">
-          +150 atividades prontas para estimular criatividade, aprendizado e diversão longe das telas.
+          <span className="text-[#22c55e]">+150 atividades prontas</span> para estimular criatividade, aprendizado e diversão <span className="text-[#22c55e]">longe das telas</span>.
         </p>
 
         {/* Hero Carousel */}
