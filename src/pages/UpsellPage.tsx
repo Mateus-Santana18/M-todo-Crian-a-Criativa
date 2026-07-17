@@ -1,5 +1,8 @@
 import React from 'react';
-import datasComemorativasImg from '../assets/datas_comemorativas.jpg';
+import upsellMockupImg from '../assets/upsell_mockup.webp';
+import garantia7DiasImg from '../assets/garantia_7_dias.webp';
+
+import datasComemorativasImg from '../assets/datas_comemorativas.webp';
 import { ShieldCheck, Flame } from 'lucide-react';
 
 export default function UpsellPage() {
@@ -57,7 +60,7 @@ export default function UpsellPage() {
         {/* Product Image */}
         <div className="max-w-[480px] mx-auto w-full mb-8">
           <img
-            src="https://i.imgur.com/YQ3jPFh.png"
+            src={upsellMockupImg}
             alt="Apostila Completa do Curso"
             className="w-full h-auto object-contain rounded-lg"
           />
@@ -155,7 +158,7 @@ export default function UpsellPage() {
         {/* Guarantee section */}
         <div className="max-w-xl mx-auto border-t border-slate-100 pt-8 mb-8 text-center flex flex-col items-center">
           <img
-            src="https://i.imgur.com/0mWvyLA.png"
+            src={garantia7DiasImg}
             alt="7 Dias de Garantia Incondicional"
             className="w-full max-w-[380px] h-auto object-contain mb-4"
           />

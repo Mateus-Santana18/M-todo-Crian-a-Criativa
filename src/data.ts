@@ -1,8 +1,8 @@
 import { Activity, BonusItem, FaqItem, Testimonial } from './types';
-import bonus1Img from './assets/bonus1.png';
-import bonus2Img from './assets/bonus2.png';
-import bonus3Img from './assets/bonus3.png';
-import heroMockupImg from './assets/hero_mockup.png';
+import bonus1Img from './assets/bonus1.webp';
+import bonus2Img from './assets/bonus2.webp';
+import bonus3Img from './assets/bonus3.webp';
+import heroMockupImg from './assets/hero_mockup.webp';
 
 export const CHECKOUT_URL = "https://pay.cakto.com.br/t9roohk_959253";
 

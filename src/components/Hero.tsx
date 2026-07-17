@@ -32,18 +32,26 @@ export default function Hero() {
       <div className="absolute bottom-10 left-10 w-72 h-72 bg-[#C7D2FE] rounded-full blur-3xl opacity-40 pointer-events-none -z-0" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
+        {/* Top Badge */}
+        <div className="inline-flex items-center gap-1.5 bg-[#4C6FFF]/10 border border-[#4C6FFF]/20 text-[#4C6FFF] px-4 py-1.5 rounded-full font-bold text-xs sm:text-sm mb-6 shadow-xs uppercase tracking-wider">
+          ⭐ MÉTODO TESTADO EM 7 DIAS
+        </div>
+
         {/* H1 Headline */}
-        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight max-w-4xl mx-auto pt-6">
-          Em apenas 7 dias, seu filho pode{' '}
+        <h1 className="font-fredoka text-[2.2rem] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 text-[#0F172A] tracking-tight max-w-4xl mx-auto">
+          Seu filho passa{' '}
           <span className="text-[#4C6FFF] relative inline-block">
-            reduzir o tempo nas telas
+            horas no celular?
             <svg className="absolute w-full h-3 -bottom-1 left-0 text-[#FFE4A0] -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
               <path d="M0 15 Q 50 0 100 15" stroke="currentColor" strokeWidth="8" fill="none" />
             </svg>
-          </span>{' '}
-          e descobrir uma nova forma de{' '}
-          <span className="text-[#22c55e]">aprender, criar e se divertir!</span>
+          </span>
         </h1>
+
+        {/* Subtitle / Benefits Section (Directly under Headline) */}
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto font-bold leading-relaxed">
+          +150 atividades prontas para estimular criatividade, aprendizado e diversão longe das telas.
+        </p>
 
         {/* Hero Carousel */}
         <div className="max-w-[420px] mx-auto mb-10 relative group overflow-hidden rounded-3xl shadow-xl border-4 border-white bg-white aspect-[3/4]">
@@ -93,11 +101,8 @@ export default function Hero() {
           </button>
         </div>
 
-        {/* Subtitle / Benefits Section */}
+        {/* Benefits Section */}
         <div className="text-base sm:text-lg md:text-xl text-[#374151] mb-8 max-w-2xl mx-auto font-medium space-y-6">
-          <p className="leading-relaxed">
-            Com atividades práticas e divertidas, estimule a criatividade e a concentração do seu filho sem precisar comprar materiais extras! 🎨✨
-          </p>
           
           <div className="flex justify-center">
             <div className="inline-flex flex-col text-left gap-2.5 bg-white/60 backdrop-blur-md p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm max-w-md w-full">
