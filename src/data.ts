@@ -5,6 +5,7 @@ import bonus3Img from './assets/bonus3.webp';
 import heroMockupImg from './assets/hero_mockup.webp';
 
 export const CHECKOUT_URL = "https://pay.cakto.com.br/t9roohk_959253";
+export const CHECKOUT_ESSENCIAL_URL = "https://pay.cakto.com.br/LINK_ESSENCIAL_AQUI"; // Atualize este link quando tiver a URL do Essencial
 
 export const HERO_MOCKUP_IMAGE = heroMockupImg;
 
